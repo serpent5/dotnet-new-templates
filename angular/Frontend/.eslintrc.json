@@ -1,0 +1,53 @@
+{
+  "root": true,
+  "ignorePatterns": "projects/**/*",
+  "overrides": [
+    {
+      "files": "*.js",
+      "parserOptions": {
+        "ecmaVersion": "latest"
+      },
+      "extends": ["eslint:recommended", "prettier"],
+      "env": {
+        "node": true
+      }
+    },
+    {
+      "files": "*.ts",
+      "settings": {
+        "import/resolver": {
+          "typescript": {}
+        }
+      },
+      "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "plugin:@typescript-eslint/strict",
+        "plugin:@angular-eslint/recommended",
+        "plugin:@angular-eslint/template/process-inline-templates",
+        "plugin:import/recommended",
+        "plugin:import/typescript",
+        "plugin:rxjs/recommended",
+        "prettier"
+      ],
+      "plugins": ["deprecation"],
+      "rules": {
+        "@typescript-eslint/explicit-function-return-type": "warn",
+        "@typescript-eslint/no-extraneous-class": [
+          "warn",
+          { "allowWithDecorator": true }
+        ],
+        "@typescript-eslint/unbound-method": [
+          "error",
+          { "ignoreStatic": true }
+        ],
+        "deprecation/deprecation": "warn"
+      }
+    },
+    {
+      "files": ["*.html"],
+      "extends": ["plugin:@angular-eslint/template/recommended", "prettier"]
+    }
+  ]
+}

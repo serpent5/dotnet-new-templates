@@ -1,0 +1,25 @@
+@{
+    const string siteTitle = "Angular_Template";
+    var pageTitle = siteTitle;
+
+    if (ViewData["Title"] is string viewTitle && !string.IsNullOrWhiteSpace(viewTitle))
+        pageTitle = viewTitle + " - " + pageTitle;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>@pageTitle</title>
+</head>
+
+<body>
+    <main>
+        @RenderBody()
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "serpent5",
+  "classifications": ["Web", "WebAPI"],
+  "name": "ASP.NET Core Web API (serpent5)",
+  "generatorVersions": "[1.0.0.0-*)",
+  "description": "Create an ASP.NET Core web API",
+  "identity": "serpent5.WebApi",
+  "shortName": "s5.webapi",
+  "sourceName": "WebApi_Template",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
