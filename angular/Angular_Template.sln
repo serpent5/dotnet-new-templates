@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8B186521-6BD6-4743-94DE-779EC85E3832}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular_Template.Host", "Angular_Template.Host\Angular_Template.Host.csproj", "{488DC40A-4482-4ED9-88FC-E6A12F6A06D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular_Template.Host.Tests", "Angular_Template.Host.Tests\Angular_Template.Host.Tests.csproj", "{FB4E58E3-40F7-4D5E-968F-F45E0766E088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular_Template.Console", "Angular_Template.Console\Angular_Template.Console.csproj", "{4F05B34B-B908-40A8-8189-884D2D08BC4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F11A3F5-EC69-4EFA-8AFF-4F26711F99B5}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{488DC40A-4482-4ED9-88FC-E6A12F6A06D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488DC40A-4482-4ED9-88FC-E6A12F6A06D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488DC40A-4482-4ED9-88FC-E6A12F6A06D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488DC40A-4482-4ED9-88FC-E6A12F6A06D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB4E58E3-40F7-4D5E-968F-F45E0766E088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4E58E3-40F7-4D5E-968F-F45E0766E088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4E58E3-40F7-4D5E-968F-F45E0766E088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4E58E3-40F7-4D5E-968F-F45E0766E088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F05B34B-B908-40A8-8189-884D2D08BC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F05B34B-B908-40A8-8189-884D2D08BC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F05B34B-B908-40A8-8189-884D2D08BC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F05B34B-B908-40A8-8189-884D2D08BC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

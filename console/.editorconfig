@@ -1,0 +1,2 @@
+[*.cs]
+dotnet_diagnostic.CA1303.severity = none # Do not pass literals as localized parameters

@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "serpent5",
+  "classifications": ["Web", "MVC", "Angular"],
+  "name": "ASP.NET Core with Angular",
+  "generatorVersions": "[1.0.0.0-*)",
+  "description": "Create an ASP.NET Core app with Angular and serpent5 opinions",
+  "identity": "serpent5.Angular",
+  "shortName": ["s5.angular"],
+  "sourceName": "Angular_Template",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sources": [
+    {
+      "source": "./"
+    },
+    {
+      "source": "../",
+      "include": [
+        ".editorconfig",
+        ".gitattributes",
+        ".gitignore",
+        "Directory.Build.props"
+      ],
+      "copyOnly": ["**/*"]
+    }
+  ]
+}

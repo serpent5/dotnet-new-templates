@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "serpent5",
+  "classifications": ["Common", "Library"],
+  "name": "Class Library",
+  "generatorVersions": "[1.0.0.0-*)",
+  "description": "Create a class library with serpent5 opinions",
+  "identity": "serpent5.ClassLib",
+  "shortName": "s5.classlib",
+  "sourceName": "ClassLib_Template",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "api": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false",
+      "displayName": "Public API",
+      "description": "Whether the Class Library exposes a public API"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "condition": "(!api)",
+          "exclude": [
+            "ClassLib_Template/PublicAPI.*.txt",
+            "ClassLib_Template.Tests/**/*"
+          ]
+        }
+      ]
+    }
+  ]
+}

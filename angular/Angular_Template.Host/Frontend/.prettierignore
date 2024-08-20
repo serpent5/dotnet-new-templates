@@ -1,0 +1,10 @@
+##
+## Angular Overrides
+##
+.angular
+dist
+
+##
+## Project Overrides
+##
+reports

@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "serpent5",
+  "classifications": ["Solution"],
+  "name": "Solution File",
+  "generatorVersions": "[1.0.0.0-*)",
+  "description": "Create an empty solution with serpent5 opinions",
+  "identity": "serpent5.Solution",
+  "shortName": ["s5.sln", "s5.solution"],
+  "sourceName": "Solution_Template",
+  "tags": {
+    "type": "item"
+  },
+  "sources": [
+    {
+      "source": "./"
+    },
+    {
+      "source": "../",
+      "include": [".editorconfig", ".gitattributes", ".gitignore", "Directory.Build.props"],
+      "copyOnly": [
+        "**/*"
+      ]
+    }
+  ]
+}
